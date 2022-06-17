@@ -1,0 +1,11 @@
+framework module JMRTableViewControl {
+  umbrella header "JMRTableViewControl.h"
+
+  export *
+  module * { export * }
+}
+
+module JMRTableViewControl.Swift {
+    header "JMRTableViewControl-Swift.h"
+    requires objc
+}
